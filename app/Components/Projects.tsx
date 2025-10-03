@@ -54,7 +54,7 @@ const Projects = () => {
             Technologies: ["React", "Tailwind CSS", "Web3.js", "Solana.js", "Ethers.js"],
             LiveDemo: "https://vaul-e.vercel.app/",
             SourceCode: "https://github.com/Senpai-489/Vaul-e",
-            Image: "/vaul-e.png"
+            Image: "/Vaul-e.png"
         },
         {
             Title: "Farmingo",
@@ -80,7 +80,7 @@ const Projects = () => {
             Technologies: ["Node.js", "Express", "MongoDB", "NextJS","Google Auth0", "Tailwind CSS", "Gemini-AI"],
             LiveDemo: "https://ez-promptor.vercel.app/",
             SourceCode: "https://github.com/Senpai-489/ez_promptor",
-            Image: "/ezpromptor.png"
+            Image: "/ezPromptor.png"
         }
         ,
         {
@@ -89,7 +89,7 @@ const Projects = () => {
             Technologies: ["Node.js", "Express", "Python"],
            
             SourceCode: "https://github.com/Senpai-489/Wabi-Sabi",
-            Image: "/wabisabi.png"
+            Image: "/WabiSabi.png"
         }
         ,
         {
