@@ -86,7 +86,7 @@ const HomeContent = () => {
     gsap.fromTo(
       '.glitch-text',
       { opacity: 0, y: -50 },
-      { opacity: 1, y: 0, duration: 1, ease: 'power2.out', delay: 3, scrollTrigger: { trigger: '.projects' } }
+      { opacity: 1, y: 0, duration: 1, ease: 'power2.out', delay:3 }
     );
     gsap.fromTo(
       '.why-work',

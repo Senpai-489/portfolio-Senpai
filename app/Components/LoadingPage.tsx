@@ -40,7 +40,7 @@ const LoadingPage = () => {
             aria-label="Loading Page"
         >
             <div className="flex flex-col justify-center items-center h-full w-full gap-4">
-                <div className="loader ease-linear border-[1px] rounded-lg border-gray-200 w-92 mb-12">
+                <div className="loader ease-linear border-[1px] rounded-lg border-gray-200 w-[50vw] mb-12">
                     <div style={{ width: loadPercent }} className="bg-[#00ffff] h-2 z-[501] rounded-lg"></div>
                 </div>
                 <p className="text-2xl font-semibold text-gray-700">{loadPercent}</p>
