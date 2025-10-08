@@ -8,6 +8,7 @@ import Projects from '../Components/Projects'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import LoadingPage from '../Components/LoadingPage'
+import Prices from '../Components/Prices'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
         <HomeContent/>
         <AboutMe/>
         <Projects/>
+        <Prices/>
         <Contact/>
         <Footer/>
     </div>
