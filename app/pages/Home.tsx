@@ -9,12 +9,13 @@ import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import LoadingPage from '../Components/LoadingPage'
 import Prices from '../Components/Prices'
-
+import { Analytics } from "@vercel/analytics/next"
 
 
 const Home = () => {
   return (
     <div >
+        <Analytics />
       <LoadingPage/>
             <Navbar />
         <HomeContent/>
